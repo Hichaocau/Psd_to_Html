@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,500&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,700;1,500&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,300;1,600&display=swap');
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --bgc-color: #2c2e3d;
+    --text-color: #99a9b5;
+    --width--primary: 1170px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    transition: all 0.2s linear;
+    scroll-behavior: smooth;
+}
+
+html{
+    /* HACK 1rem = 10px*/
+    font-size: 62.5%;
+    line-height: 1.6px;
+    scroll-behavior: smooth;
+}
+
+body{
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+    width: 1920px;
+    max-width: 100%;
+    background-color: var(--bgc-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    width: var(--width--primary);
+    max-width: 100%;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.header__logo--name{
+    font-size: 27px;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 6px;
+    margin-bottom: -9px;
+}
+
+.header__navbar-item{
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--text-color);
+    list-style: none;
+    font-weight: 700;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 15px;
+    /* border: 2px solid #fff; */
+    cursor: pointer;
+}
+
+.header__navbar-item:nth-child(2){
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.header__navbar-item:hover{
+    color: #08a6bc;
+}
+
+/* .header__navbar-item:active{
+    color: #fff;
+    border: 4px solid #fff;
+} */
+
+.header__tools{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header__tools--language{
+    margin-right: 20px;
+}
+
+.header__tools--search{
+    margin-right: 20px;
+}
+
+.header__tools--cart{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+
+.header__tools--cart-logo{
+    margin-right: 4px;
+}
+
+.header__tools--cart-info{
+    position: relative;
+    margin-top: 3px;
+}
+
+
+.header__tools--cart-info span{
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    top: 8px;
+    right: 10px;
+}
