@@ -1,0 +1,119 @@
+/* Pc */
+@media (min-width: 1024px){
+    .hide-on-pc{
+        display: none;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .header__navbar{
+        display: none;
+    }
+    .header{
+        justify-content: space-evenly;
+    }
+    .footer__item-wrap,
+    .price__list-item--wrap {
+        padding-left: 21px;
+        padding-right: 21px;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .price__list-item--wrap{
+        height: 815px;
+    }
+
+    .footer__list,
+    .price__list {
+        margin-left: 14px;
+        margin-right: 14px;
+    }
+    .content__main{
+        height: 1520px;
+    }
+    .footer__bonus-info--list{
+        display: none;
+    }
+    .footer__bonus{
+        padding: 0 20px;
+    }
+    .content__des{
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1180px){
+    .header__navbar-item{
+        margin: 0;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px){
+    .hide-on-tablet{
+        display: none;
+    }  
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .slider__header{
+        text-align: center;
+    }
+    .slider__menu{
+        margin: 90px 0 70px 0;
+    }
+    .content__des{
+        margin-bottom: 100px;
+    }
+    .feature{
+        padding: 100px 0 90px 0;
+    }
+    .slider__options--wrap{
+        width: auto;
+        margin-right: 0;
+    }
+    .slider__options--wrap:nth-child(1){
+        margin-right: 10px;
+    }
+    .footer__item-wrap,
+    .price__list-item--wrap {
+        padding-left: 21px;
+        padding-right: 21px;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .feature{
+        margin-top: 1800px;
+    }
+    .feature__des p{
+        padding: 0 20px;
+    }
+    .feature__btn{
+        margin-right: 0;
+    }
+    .footer__contact-item{
+        margin: 22px 5px;
+    }
+    .footer__list-info--text{
+        margin-left: 17px;
+    }
+    .footer__item-main,
+    .footer__item-wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__item-form--wrap{
+        width: auto;
+    }
+}

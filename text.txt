@@ -1,0 +1,37 @@
+1. Thiết lập đơn vị px: Preferences -> Unit and Ruler -> Px 
+
+2. Mở Ruler: `ctrl + R`
+
+3. Ẩn hiện ruler line màu xanh cyan: `ctrl + ;` hoặc `ctrl + H`
+_ Ấn vào thanh ruler trên và kéo xuống ảnh tạo thước ngang
+_ Ấn vào thanh ruler trái vào kéo sang ảnh tạo thước dọc.
+
+4. Lấy mã màu: Eyedropper tool ( I )
+
+5. Xem kích thước: Chọn Marquee Tool ( M )
+
+6. Xem thông tin của chữ: chữ T ( T )
+
+7. Show thông tin character: `Window -> character` 
+
+8. Công cụ chọn: Move tool ( V )
+
+9. Công cụ crop tool: ( C )
+
+10. Lưu ảnh.
+_ Ảnh jpg: Giữ phím `Alt` + click vào icon con mắt của layer -> Image -> Trim vào khoảng trống -> Ctrl + alt + shift + s ( Save for Web )
+
+_ Ảnh png: Phải chuột vào layer và chọn `Quick export as PNG`
+
+_ Cách 3: tối ưu nhất khi cắt ảnh.
+==> ấn M chọn layer -> ấn Ctrl C copy -> ấn Ctrl N để lưu -> Ctrl V paste.
+
+11. Lịch sử: Window -> History -> chọn layer trên cùng.
+
+12. Tạo chữ dùng gradient.
+_ Tạo 1 layer mới nằm trên layer chứa chữ. 
+_ Dùng Marquee Tool bọc lại chữ -> ấn G (gradient tool)
+_ Kéo chuột qua layer mới đó => được hình vuông gradient ( layer gradient)
+_ Ấn ctrl + chuột trái vào layer có chữ => vùng chọn chữ răng cưa.
+_ Ấn vào layer gradient Ctrl + shift + I -> Backspace -> Ctrl D.
+_ Ẩn layer chứa chữ đi để layer gradient smooth.
