@@ -45,6 +45,16 @@
     .content__des{
         padding: 0 20px;
     }
+    .footer__item-main,
+    .footer__item-wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer__item-form--wrap{
+        width: auto;
+    }
 }
 
 @media (min-width: 1023px) and (max-width: 1180px){
@@ -106,14 +116,5 @@
     .footer__list-info--text{
         margin-left: 17px;
     }
-    .footer__item-main,
-    .footer__item-wrap{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .footer__item-form--wrap{
-        width: auto;
-    }
+
 }

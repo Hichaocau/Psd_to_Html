@@ -51,34 +51,72 @@
 
         <!-- slider start -->
         <div class="slider">
-            <div class="slider__menu">
-                <img src="./assets/img/menu.png" alt="">
-            </div>
-            <div class="slider__header">
-                <a href="#" class="slider__header-text">
-                    <span>PRICING</span>
-                    TABLES
-                </a>
-            </div>
-            <p class="slider__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nosreud exercitation ullamco laboris nisi ut aliquip ex ea</p>
-            <div class="slider__options">
-                <div class="slider__options--wrap">
-                    <span>PURCHASE NOW</span>
+            <div class="slider__list active content1">
+                <div class="slider__menu">
+                    <img src="./assets/img/menu.png" alt="">
                 </div>
-                <div class="slider__options--wrap">
-                    <span>MORE DATAILS</span>
+                <div class="slider__header">
+                    <a href="#" class="slider__header-text">
+                        <span>PRICING</span>
+                        TABLES
+                    </a>
+                </div>
+                <p class="slider__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nosreud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                <div class="slider__options">
+                    <div class="slider__options--wrap">
+                        <span>PURCHASE NOW</span>
+                    </div>
+                    <div class="slider__options--wrap">
+                        <span>MORE DATAILS</span>
+                    </div>
                 </div>
             </div>
-            <div class="slider__icon">
-                <div class="slider__icon--direction slider__icon--direction-active"></div>
-                <div class="slider__icon--direction"></div>
-                <div class="slider__icon--direction"></div>
+            <div class="slider__list content2">
+                <div class="slider__menu">
+                    <img src="./assets/img/menu.png" alt="">
+                </div>
+                <div class="slider__header">
+                    <a href="#" class="slider__header-text">
+                        <span>PRICING</span>
+                        NOW
+                    </a>
+                </div>
+                <p class="slider__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nosreud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                <div class="slider__options">
+                    <div class="slider__options--wrap">
+                        <span>PURCHASE NOW</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__list content3">
+                <div class="slider__menu">
+                    <img src="./assets/img/menu.png" alt="">
+                </div>
+                <div class="slider__header">
+                    <a href="#" class="slider__header-text">
+                        <span>PRICING</span>
+                        DETAILS
+                    </a>
+                </div>
+                <p class="slider__des">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nosreud exercitation ullamco laboris nisi ut aliquip ex ea</p>
+                <div class="slider__options">
+                    <div class="slider__options--wrap">
+                        <span>MORE DATAILS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__icon-wrap">
+                <div class="slider__icon">
+                    <div onclick="dot(1)" class="slider__icon--direction"></div>
+                    <div onclick="dot(2)" class="slider__icon--direction"></div>
+                    <div onclick="dot(3)" class="slider__icon--direction"></div>
+                </div>
             </div>
             <div class="slider__button">
-                <div class="slider__button-wrap">
+                <div class="slider__button-wrap prev">
                     <img src="./assets/img/prev.png" alt="" class="slider__button--prev">
                 </div>
-                <div class="slider__button-wrap">
+                <div class="slider__button-wrap next">
                     <img src="./assets/img/next.png" alt="" class="slider__button--prev">
                 </div>
             </div>
@@ -409,10 +447,23 @@
                                 <div class="footer__color-item--ele1"></div>
                             </div>
                         </div>
-                        <div class="footer__color-btn">
-                            <div class="footer__color-btn--item"></div>
-                            <div class="footer__color-btn--item"></div>
-                            <div class="footer__color-btn--item"></div>
+                        <div class="footer__color-list hide">
+                            <div class="footer__color-item">
+                                <div class="footer__color-item--ele4"></div>
+                            </div>
+                            <div class="footer__color-item">
+                                <div class="footer__color-item--ele5"></div>
+                            </div>
+                            <div class="footer__color-item">
+                                <div class="footer__color-item--ele6"></div>
+                            </div>
+                        </div>
+                        <div class="footer__color-btn--wrap">
+                            <div class="footer__color-btn">
+                                <div class="footer__color-btn--item color"></div>
+                                <div class="footer__color-btn--item"></div>
+                                <div class="footer__color-btn--item"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -497,4 +548,5 @@
         <a href="#up" class="button__up-link"><i class="ti-angle-up"></i></a>
     </div>
 </body>
+    <script src="./main.js"></script>
 </html>
