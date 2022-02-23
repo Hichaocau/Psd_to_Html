@@ -12,6 +12,8 @@ function next(){
     document.querySelector('.content' + (i+1)).classList.add("active"); 
     dotsActive(i + 1)
 }
+setInterval(next, 5000)
+
 
 function prev(){
     document.querySelector('.content' + (i+1)).classList.remove("active"); 
@@ -19,6 +21,7 @@ function prev(){
     document.querySelector('.content' + (i+1)).classList.add("active"); 
     dotsActive(i + 1)
 }
+
 
 // change bgc dots
 function dotsActive(num){
@@ -28,7 +31,10 @@ function dotsActive(num){
     document.querySelector('.slider__icon .slider__icon--direction:nth-child('+ num +')').style.background = '#00bcd4'
 }
 
-btnNext.addEventListener('click', next)
+btnNext.addEventListener('click', function(){
+    clearInterval(next)
+    next();
+})
 btnPrev.addEventListener('click', prev)
 
 // dot click
